@@ -1,0 +1,11 @@
+sitemap home label="Home" {
+    Frame {
+        Group item=Hall
+    }
+    Frame {
+        Group item=Bath
+    }
+    Frame {
+        Group item=Bedroom
+    }
+}
