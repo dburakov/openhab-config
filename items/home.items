@@ -1,0 +1,25 @@
+Group    Home            "Home"          <house>                             ["Building"]
+
+Group    Hall         "Гостиная"       <sofa>       (Home)              ["Room"]
+Group    Bedroom         "Комнаты"       <bedroom>       (Home)              ["Room"]
+Group    Bath         "Санузлы"       <bath>       (Home)              ["Room"]
+
+Switch   Bed_Wall_Light   "Ночник у стены"     <light>         (Bedroom)   ["Switchable"] { http=">[ON:GET:http://192.168.0.168/api.htm?ch=0&cmd=3] >[OFF:GET:http://192.168.0.168/api.htm?ch=0&cmd=0]" }
+Switch   Corridor_Light   "Свет в прихожей"     <light>         (Hall)   ["Switchable"] { http=">[ON:GET:http://192.168.0.168/api.htm?ch=1&cmd=3] >[OFF:GET:http://192.168.0.168/api.htm?ch=1&cmd=0]" }
+Switch   Table_Light   "Свет над столом"     <light>         (Hall)   ["Switchable"] { http=">[ON:GET:http://192.168.0.168/api.htm?ch=2&cmd=3] >[OFF:GET:http://192.168.0.168/api.htm?ch=2&cmd=0]" }
+Switch   Kitchen_Light   "Свет на кухне"     <light>         (Hall)   ["Switchable"] { http=">[ON:GET:http://192.168.0.168/api.htm?ch=3&cmd=3] >[OFF:GET:http://192.168.0.168/api.htm?ch=3&cmd=0]" }
+Switch   Bedroom_Light   "Свет в спальной"     <light>         (Bedroom)   ["Switchable"] { http=">[ON:GET:http://192.168.0.168/api.htm?ch=4&cmd=3] >[OFF:GET:http://192.168.0.168/api.htm?ch=4&cmd=0]" }
+Switch   Bed_Window_Light   "Ночник у окна"     <light>         (Bedroom)   ["Switchable"] { http=">[ON:GET:http://192.168.0.168/api.htm?ch=5&cmd=3] >[OFF:GET:http://192.168.0.168/api.htm?ch=5&cmd=0]" }
+Switch   Kid_Corridor_Light   "Свет в детской"     <light>         (Bedroom)   ["Switchable"] { http=">[ON:GET:http://192.168.0.168/api.htm?ch=6&cmd=3] >[OFF:GET:http://192.168.0.168/api.htm?ch=6&cmd=0]" }
+Switch   Kid_Room_Light   "Ночник в детской"     <light>         (Bedroom)   ["Switchable"] { http=">[ON:GET:http://192.168.0.168/api.htm?ch=7&cmd=3] >[OFF:GET:http://192.168.0.168/api.htm?ch=7&cmd=0]" }
+Switch   Toilet_Fan   "Вентилятор в туалете"     <light>         (Bath)   ["Switchable"] { http=">[ON:GET:http://192.168.0.168/api.htm?ch=8&cmd=3] >[OFF:GET:http://192.168.0.168/api.htm?ch=8&cmd=0]" }
+Switch   Toilet_Light   "Свет в туалете"     <light>         (Bath)   ["Switchable"] { http=">[ON:GET:http://192.168.0.168/api.htm?ch=9&cmd=3] >[OFF:GET:http://192.168.0.168/api.htm?ch=9&cmd=0]" }
+Switch   Bath_Heating   "Теплый пол"     <light>         (Bath)   ["Switchable"] { http=">[ON:GET:http://192.168.0.168/api.htm?ch=10&cmd=3] >[OFF:GET:http://192.168.0.168/api.htm?ch=10&cmd=0]" }
+Switch   Bath_Mirror_Light   "Зеркало в ванной"     <light>         (Bath)   ["Switchable"] { http=">[ON:GET:http://192.168.0.168/api.htm?ch=11&cmd=3] >[OFF:GET:http://192.168.0.168/api.htm?ch=11&cmd=0]" }
+Switch   Bath_Fan   "Вентилятор в ванной"     <light>         (Bath)   ["Switchable"] { http=">[ON:GET:http://192.168.0.168/api.htm?ch=12&cmd=3] >[OFF:GET:http://192.168.0.168/api.htm?ch=12&cmd=0]" }
+Switch   Bath_Light   "Свет в ванной"     <light>         (Bath)   ["Switchable"] { http=">[ON:GET:http://192.168.0.168/api.htm?ch=13&cmd=3] >[OFF:GET:http://192.168.0.168/api.htm?ch=13&cmd=0]" }
+Switch   Balcony_Light   "Свет на балконе"     <light>         (Hall)   ["Switchable"] { http=">[ON:GET:http://192.168.0.168/api.htm?ch=14&cmd=3] >[OFF:GET:http://192.168.0.168/api.htm?ch=14&cmd=0]" }
+Switch   Hall_Light   "Свет в гостиной"     <light>         (Hall)   ["Switchable"] { http=">[ON:GET:http://192.168.0.168/api.htm?ch=15&cmd=3] >[OFF:GET:http://192.168.0.168/api.htm?ch=15&cmd=0]" }
+Switch   Boxroom_Light   "Свет в кладовой"     <light>         (Hall)   ["Switchable"] { http=">[ON:GET:http://192.168.0.168/api.htm?ch=16&cmd=3] >[OFF:GET:http://192.168.0.168/api.htm?ch=16&cmd=0]" }
+
+
